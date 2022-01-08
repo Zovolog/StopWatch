@@ -1,0 +1,33 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+}
+.head-text {
+  font-size: 62px;
+  font-weight: bold;
+  color: white;
+}
+.time {
+  font-size: 52px;
+  font-weight: bold;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.btn-green{
+  margin-left: 20px;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(0, 94, 0);
+  cursor: pointer;
+}
+.btn-green:hover{
+  background-color: rgb(1, 61, 1);
+}
