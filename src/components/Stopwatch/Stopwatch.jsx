@@ -38,7 +38,7 @@ export function Stopwatch() {
       unsubscribe$.next();
       unsubscribe$.complete();
     };
-  });
+  }, [status]);
 
   const start = () => {
     setStatus("run");
